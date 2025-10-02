@@ -1,0 +1,11 @@
+primary_region    = "us-east-1"
+secondary_region  = "us-west-2"
+azs_primary       = ["us-east-1a", "us-east-1b"]
+azs_secondary     = ["us-west-2a", "us-west-2b"]
+vpc_cidr_primary  = "10.0.0.0/16"
+vpc_cidr_secondary = "10.1.0.0/16"
+db_username       = "admin"
+db_password       = "admin123"
+app_bucket        = "roovi-app-code"
+domain_name       = "roovi.shop"
+sns_email         = "roopasree812@gmail.com"  # For alerts
